@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  box-sizing: 62.5%;
+}
+
+body {
+  box-sizing: 1.6rem;
+  background-color: #fff;
+  
+}
+
+header {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.8rem 1.0rem;
+  background-color: #065E7C;
+  padding: 1.2rem 2.0rem 1.0rem ;
+}
+@media (min-width:900px) {
+  #txtbuscar{
+  width: 60.0rem;
+ }
+}
+header input {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+
+  width: 16rem;
+  height: 3.0rem;
+  border-radius: 0.4rem;
+  color: #ffffff;
+  text-decoration: none;
+ 
+  border: none;
+  padding: 0 1.0rem;
+
+}
+
+ input {
+  background-color: #387E96;
+ }
+
+input::placeholder {
+  padding: 0 1.0rem;
+  opacity: none;
+  color: #ffffffab;
+  font-size: 14px;
+  font-weight: bold;  
+ 
+}
+
+
+main img {
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+main button {
+  background-color: #065E7C;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: none;
+  margin-left: 1.2rem;
+
+  
+}
+main button img {
+  width: 1.6rem;
+ 
+  
+}
+
+main h2 {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 24px;
+  padding: 22px;
+}
+
+
+main p {
+ 
+  box-shadow: #201616;
+  margin: 1.7rem 1.7rem  ;
+  line-height:  1.9rem;
+  
+}
+
+
+aside {
+  margin: 2.2rem 2.2rem;
+
+}
+
+aside h2  {
+  margin-bottom: 2.2rem ;
+}
+
+aside  span {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: bold;
+
+}
+aside p {
+  line-height: 1.6rem;
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+.artigos{
+  width: 38.3rem;
+  height: 6.4rem;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 22px;
+  
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 5.4rem;
+  background-color: #387E96;
+}
+
+
+  @media (min-width: 668px) {}
+  
